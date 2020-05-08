@@ -18,8 +18,14 @@
         <input type="text" name="time">
         <label>ID #:</label>
         <input type="text" name="user_id"></input>
-        <input type="submit" value="Create Event">
+        <input type="submit" value="Create Event" onclick="clicked(event)">
     </form>
+    <script>
+        function clicked(e)
+        {
+            if(!confirm('Confirm Event?'))e.preventDefault();
+        }
+        </script>
     <h2>Current Events:</h2>
     <style>
         h2 {
