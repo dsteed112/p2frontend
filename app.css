@@ -19,3 +19,51 @@ body{
     text-align: left;
     padding: 50px;
 }
+
+.box input[type = "text"]{
+    border: 0;
+    background: none;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid #fe921f;
+    padding: 8px 4px;
+    outline: none;
+    color: white;
+    /* border-radius: 24px; */
+    transition: 0.25s;
+
+}
+.box {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+
+.box input[type = "submit"]{
+    border: 0;
+    font-size: small;
+    background: none;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #fe921f;
+    padding: 10px 6px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background: #fe921f;
+}
