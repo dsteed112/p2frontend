@@ -1,0 +1,21 @@
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.box h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+body{
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+    background:  rgb(17, 26, 34);
+    color: white;
+    text-align: left;
+    padding: 50px;
+}
